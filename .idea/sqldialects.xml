@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$USER_HOME$/Desktop/HANSAM/sql/hanssemDB.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/2.mysql_문법.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/3.join.sql" dialect="GenericSQL" />
+    <file url="PROJECT" dialect="MySQL" />
+  </component>
+</project>
