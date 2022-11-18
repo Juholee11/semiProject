@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/common.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <style>
+        .ca_box {
+            width: 300px;
+            height: 300px;
+            background-color: black;
+        }
+        .ca_txt{
+            height: 20%;
+            line-height: 35px;
+            padding: 0 5px;
+            color: #fff;
+
+            font-size: 18px;
+            font-weight: 900;
+        }
+        .ca_img{
+            width: 100%;
+            height: 80%
+        }
+    </style>
+</head>
+<body>
+    <ul class="ca_box">
+        <li class="ca_txt">Boutique Furniture</li>
+        <li class="ca_img"><img src="img/Furn1.png"></li>
+    </ul>
+    <script>
+       
+        $(document).ready(function(){
+            ho_colorRed();
+            function ho_colorRed(){
+                $('.ca_box').mouseenter(function(){
+                    $('.ca_txt').eq(0).css({
+                        color:'red'
+                    })
+                });
+                $('.ca_box').mouseleave(function(){
+                    $('.ca_txt').eq(0).css({
+                        color:'#fff'
+                    })
+                });
+            }
+        })
+    </script>
+</body>
+</html>
