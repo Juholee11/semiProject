@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="app" />
         <module name="concept-byme" />
+        <module name="semiProject" />
       </profile>
     </annotationProcessing>
   </component>
@@ -15,6 +16,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="app" options="-Xlint:all" />
       <module name="concept-byme" options="-Xlint:all" />
+      <module name="semiProject" options="-Xlint:all" />
     </option>
   </component>
 </project>
