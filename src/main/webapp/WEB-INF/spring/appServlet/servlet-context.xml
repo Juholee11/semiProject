@@ -29,7 +29,7 @@
 <!-- <view-controller path="/register/add22" view-name="Ex22_회원가입_form"/> -->
 
 
-	<context:component-scan base-package="com.bitstudy.app" />
+	<context:component-scan base-package="com.hanssem.app" />
 	
 	
 	
