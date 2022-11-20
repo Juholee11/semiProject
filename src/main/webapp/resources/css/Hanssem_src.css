@@ -1,0 +1,365 @@
+.container {
+    max-width: 1200px;
+    /* min-width: 1000px; */
+    margin: 0 auto;
+}
+.src_title {
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.src_title span {
+    font-size: 30px;
+    padding-right: 15px;
+}
+.src_title h1 {
+    display: inline-block;
+    font-size: 35px;
+}
+
+.cate_box {
+    box-shadow: 0 0 0 2px rgba(100, 100, 100, 0.7);
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+    .cate_major,
+    .cate_subclass,
+    .opt_box,
+    .price_box {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        padding: 20px 20px;
+        border-bottom: 1px solid gray;
+        position: relative;
+    }
+    .price_box {
+        border-bottom: none;
+    }
+        .major_title,
+        .subclass_title,
+        .opt_title,
+        .price_title {
+            width: 15%;
+            font-weight: 900;
+        }
+        .major_selector,
+        .sub_selector,
+        .opt_selector,
+        .price_bounds {
+            width: 85%;
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 15px;
+        }
+            .major,
+            .subclass,
+            .cate_opt {
+                width: 25%;
+                margin: 0;
+                padding-left: 16px;
+                box-sizing: border-box;
+                font-size: 13px;
+            }
+            .major_checked,
+            .subclass_checked,
+            .opt_checked {
+                font-weight: 900;
+                position: relative;
+            }
+            .major_checked::before {
+                content: "";
+                display: block;
+                position: absolute;
+                top: 3px;
+                left: 0;
+                width: 14px;
+                height: 14px;
+                background: url(../img/sprite-common.png) no-repeat -697px -23px;
+                font-size: 0;
+                line-height: 0;
+            }
+            .btn_expand {
+                position : absolute;
+                right: 30px;
+                bottom: 10px;
+                color: #fff;
+                font-weight: 900;
+                font-size: 18px;
+                text-shadow: 0 0 2px#000;
+                display: none;
+            }
+            .fold {
+                height: 49px;
+                overflow: hidden;
+            }
+        .input_price {
+            margin: 0 16px;
+            padding: 5px 15px;
+            box-sizing: border-box;
+        }
+        .input_price::-webkit-inner-spin-button,
+        .input_price::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            appearance: none;
+            margin: 0;
+        }
+        .won {
+            font-size: 14px;
+            line-height: 25px;
+        }
+        .btn_price_src {
+            width: 27px;
+            height: 27px;
+            text-indent: -9999px;
+            background: url(https://mall.hanssem.com/resources/images/search/btn_search.png) no-repeat left bottom;
+            vertical-align: -8px;
+            display: inline-block;
+            margin-left: 15px;
+            margin-top: -12px;
+            transform: translateY(50%);
+            border: none;
+        }
+.product_box {
+    margin-top: 30px;
+}
+    .sort_opt {
+        display: flex;
+        justify-content: space-between;
+    }
+        .sort_li {
+            display: flex;
+            gap: 20px;
+        }
+        .sort_li li {
+            padding: 10px;
+            padding-left: 16px;
+            font-size: 13px;
+            position: relative;
+        }
+        .sort_checked {
+            font-weight: 900;
+        }
+        .sort_checked::before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 10px;
+            left: 0;
+            width: 14px;
+            height: 14px;
+            background: url(../img/sprite-common.png) no-repeat -1010px 0;
+            font-size: 0;
+            line-height: 0;
+        }
+        #showQtt {
+            border: 1px solid #fff;
+            border-radius: 0.5em;
+            box-shadow: 0 1px 0 1px rgba(0,0,0, 0.04);
+            outline: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background: url(../) no-repeat 80% 50%;
+            padding: 10px;
+        }
+        #showQtt:focus {
+            border-color: #eaeaea;
+            box-shadow: 0 0 1px 1px rgba(100, 100, 100, 0.7);
+        }
+    .product_box {}
+    .product_li {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .product {
+        width: calc((100% - (20px * 3)) / 4);
+        box-sizing: border-box;
+        position: relative;
+        overflow: hidden;
+    }
+    .product > img {
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    .desc_box {
+        padding: 5px 10px;
+        box-sizing: border-box;
+        position: relative;
+    }
+    .product_name {
+        font-size: 20px;
+        text-align: left;
+    }
+    .product:hover .product_name{
+        font-weight: 900;
+    }
+    .product_price {
+        font-size: 18px;
+        padding: 5px 0;
+        font-weight: 700;
+        text-align: left;
+    }
+    .estim_box {
+        width: 33%;
+        /* margin: 0 auto; */
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .score,
+    .review_count {
+        display: inline-block;
+        font-size: 14px;
+        color: #73777B;
+        position: relative;
+        padding: 5px 0;
+        padding-left: 22px;
+        box-sizing: border-box;
+    }
+    
+    .score::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 16px;
+        height: 15px;
+        background: url(../img/sprite-common.png) no-repeat -925px 0;
+    }
+    .review_count::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 18px;
+        height: 16px;
+        background: url(../img/sprite-common.png) no-repeat -945px 1px ;
+    }
+.pagination {
+    text-align: center;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+    .paging_list {
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .paging_list li {
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        overflow: hidden;
+        margin: 0 0 0 -1px;
+        font-size: 15px;
+        color: #73777B;
+    }
+    .pagination > div {
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        overflow: hidden;
+        margin: 0 0 0 -1px;
+        font-size: 15px;
+        color: #73777B;
+    }
+    .pnum {
+        border: 1px solid #e1e1e1;
+        box-sizing: border-box;
+    }
+    .pp{
+        background: url(../img/sprite-common.png) no-repeat -280px -60px;
+        text-indent: -50000px;
+    }
+    .pre {
+        background: url(../img/sprite-common.png) no-repeat -309px -60px;
+        text-indent: -50000px;
+    }
+    .next {
+        background: url(../img/sprite-common.png) no-repeat -338px -60px;
+        text-indent: -50000px;
+    }
+    .nn {
+        background: url(../img/sprite-common.png) no-repeat -367px -60px;
+        text-indent: -50000px;
+    }
+    .paging_list .on {
+        background-color: rgba(200, 200, 200, 0.5);
+        color: black;
+        font-weight: 900;
+    }
+    .paging_list a {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .dc_rate {
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: 1px solid;
+        border-radius: 5px;
+        box-sizing: border-box;
+        background-color: gray;
+        color: #fff;
+        margin: 0;
+        padding: 5px;
+        transform: translateY(-100%);
+        transition: transform 0.3s;
+    }
+
+    .product:hover .dc_rate {
+        transform: translateY(0);
+    }
+
+    .wish_mark {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        background: url(../img/heart2.png) center top/ cover;
+        z-index: 99;
+    }
+    .product:hover .wish_mark {
+        background-position-y: bottom;
+    }
+
+    /* .cart {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        bottom: 15px;
+        right: 10px;
+        background: url(../img/sprite-common.png) no-repeat -550px 5px;
+    } */
+
+/* ::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+} */
+
+.product_img {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 100%;
+    box-sizing: border-box;
+    border: 1px solid;
+}
