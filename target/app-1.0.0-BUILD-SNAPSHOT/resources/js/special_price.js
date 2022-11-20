@@ -8,7 +8,7 @@ ref.setDate(ref.getDate() + 7);  //7일로 타이머 설정
 
 
 // // 생성시간을 6 - (현재시간 - 생성시간)
-// // 만일 마이너스면 플러스가 될떄까지 +6
+// // 만일 마이너스면 플러스가 될 떄까지 +6
 
 // let timer = 6- (Date.now - Data.createTime);
 // while (timer < 0) {
