@@ -121,7 +121,7 @@ $(document).ready(function(){
             let s_top = $(window).scrollTop();
             console.log(h_top,s_top)
             if(h_top <= s_top){
-                inversion('#000000e6','img/logo_white.png','#ffffffe6','3px solid #ffffffe6')
+                inversion('#000000e6','img/fiximg/logo_white.png','#ffffffe6','3px solid #ffffffe6')
                 $('.h_100').css({
                     height: 200
                 })
@@ -132,7 +132,7 @@ $(document).ready(function(){
                     height: 50
                 });
             }else{
-                inversion('#ffffffe6','img/logo_black.png','#000000e6','3px solid #000000e6')
+                inversion('#ffffffe6','img/fiximg/logo_black.png','#000000e6','3px solid #000000e6')
                 $('.h_100').css({
                     height: 0
                 })
