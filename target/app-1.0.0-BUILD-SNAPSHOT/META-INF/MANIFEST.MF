@@ -1,5 +1,9 @@
 Manifest-Version: 1.0
 Created-By: IntelliJ IDEA
+<<<<<<< HEAD
 Built-By: Administrator
+=======
+Built-By: jyjun
+>>>>>>> upstream/main
 Build-Jdk: 11.0.17
 

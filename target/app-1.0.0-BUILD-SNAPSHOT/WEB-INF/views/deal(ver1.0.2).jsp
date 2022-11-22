@@ -7,7 +7,7 @@
 --%>
 <link rel="stylesheet" href="../css/common.css">
 <link rel="stylesheet" href="../css/header(ver1.0.2).css">
-<link rel="stylesheet" href="../css/deal(ver1.0.2).css">
+<link rel="stylesheet" href="../css/deal(ver1.0.1).css">
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <script src="../js/header(ver1.0.2).js"></script>
 
