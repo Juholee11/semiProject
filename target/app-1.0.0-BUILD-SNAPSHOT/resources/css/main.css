@@ -60,11 +60,11 @@
 
 #btn_slide_L { 
     left: 0 ;
-    background-image: url(./img/mainpage_img/btn_L.png);
+    background-image: url(../img/main/btn_L.png);
 }
 #btn_slide_R { 
     right: 0;
-    background-image: url(./img/mainpage_img/btn_R.png);
+    background-image: url(../img/main/btn_R.png);
 }
 .circle_indicator {
     position: absolute;

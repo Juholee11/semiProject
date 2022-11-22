@@ -10,23 +10,23 @@
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script defer src="../js/header(ver1.0.2).js"></script>
     <script defer src="../js/main.js"></script>
-    <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/header(ver1.0.2).css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/header(ver1.0.2).css">
+    <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
 <div id="wrap">
     <input type="checkbox" value="close" id="close">
     <div class="event_banner">
-        <a href="#"><img src="./img/mainpage_img/event_banner.png" alt="" id="event_img"></a>
-        <label for="close" class="close_img"><img src="./img/mainpage_img/X.png" alt=""></label>
+        <a href="#"><img src="../img/main/event_banner.png" alt="" id="event_img"></a>
+        <label for="close" class="close_img"><img src="../img/main/X.png" alt=""></label>
     </div>
 
     <header class="header">
         <div class="content_area header_top">
             <ul class="top_nav_ul">
                 <!-- 로그인 페이지로 이동 -->
-                <li><a href="./login&logoutpage_1.0.0.html">LOGIN</a></li>
+                <li><a href="./login.html">LOGIN</a></li>
                 <!-- 회원가입 페이지로 이동 -->
                 <li><a href="#">JOIN</a></li>
                 <!-- 위시리스트 내역 페이지로 이동 -->
@@ -46,7 +46,7 @@
                 </form>
             </div>
             <!-- 로고 클릭시 메인페이지로 이동 -->
-            <a href="#"><div class="logo"><img src="./img/logo_black.png" alt=""></div></a>
+            <a href="#"><div class="logo"><img src="../img/fiximg/logo_black.png" alt=""></div></a>
         </div>
 
         <div class="header_bottom">
@@ -127,9 +127,9 @@
 
 
     <div class="main_banner">
-        <a href="#" class="banner"><img src="./img/mainpage_img/mainbanner_img1.png" alt=""></a>
-        <a href="#" class="banner"><img src="./img/mainpage_img/mainbanner_img2.png" alt=""></a>
-        <a href="#" class="banner"><img src="./img/mainpage_img/mainbanner_img3.png" alt=""></a>
+        <a href="#" class="banner"><img src="../img/main/mainbanner_img1.png" alt=""></a>
+        <a href="#" class="banner"><img src="../img/main/mainbanner_img2.png" alt=""></a>
+        <a href="#" class="banner"><img src="../img/main/mainbanner_img3.png" alt=""></a>
 
 
         <input type="button" class="btn_slide" id="btn_slide_L">
@@ -156,7 +156,7 @@
 
         <div class="items_area">
             <div class="item">
-                <div class="img_box"><img src="./img/mainpage_img/new1.png" alt="" id="new_img" ></div>
+                <div class="img_box"><img src="../img/main/new1.png" alt="" id="new_img1" ></div>
                 <div class="item_txt">
                     <h4>SAMPLE</h4>
                     <h5>상품요약 설명</h5>
@@ -166,7 +166,7 @@
             </div>
 
             <div class="item">
-                <div class="img_box"><img src="./img/mainpage_img/new2.png" alt="" id="new_img" ></div>
+                <div class="img_box"><img src="../img/mainpage_img/new2.png" alt="" id="new_img2" ></div>
                 <div class="item_txt">
                     <h4>SAMPLE</h4>
                     <h5>상품요약 설명</h5>
@@ -176,7 +176,7 @@
             </div>
 
             <div class="item">
-                <div class="img_box"><img src="./img/mainpage_img/new3.png" alt="" id="new_img" ></div>
+                <div class="img_box"><img src="../img/main/new3.png" alt="" id="new_img3" ></div>
                 <div class="item_txt">
                     <h4>SAMPLE</h4>
                     <h5>상품요약 설명</h5>
@@ -186,7 +186,7 @@
             </div>
 
             <div class="item">
-                <div class="img_box"><img src="./img/mainpage_img/new4.png" alt="" id="new_img" ></div>
+                <div class="img_box"><img src="../img/main/new4.png" alt="" id="new_img4" ></div>
                 <div class="item_txt">
                     <a href="#">
                         <h4>SAMPLE</h4>
@@ -210,7 +210,7 @@
 
             <div class="items_area">
                 <div class="item">
-                    <div class="img_box"><img src="./img/mainpage_img/new1.png" alt="" id="new_img" ></div>
+                    <div class="img_box"><img src="../img/main//new1.png" alt="" id="best_img1" ></div>
                     <div class="item_txt">
                         <h4>SAMPLE</h4>
                         <h5>상품요약 설명</h5>
@@ -220,7 +220,7 @@
                 </div>
 
                 <div class="item">
-                    <div class="img_box"><img src="./img/mainpage_img/new2.png" alt="" id="new_img" ></div>
+                    <div class="img_box"><img src="../img/main//new2.png" alt="" id="best_img2" ></div>
                     <div class="item_txt">
                         <h4>SAMPLE</h4>
                         <h5>상품요약 설명</h5>
@@ -230,7 +230,7 @@
                 </div>
 
                 <div class="item">
-                    <div class="img_box"><img src="./img/mainpage_img/new3.png" alt="" id="new_img" ></div>
+                    <div class="img_box"><img src="../img/main/new3.png" alt="" id="best_img3" ></div>
                     <div class="item_txt">
                         <h4>SAMPLE</h4>
                         <h5>상품요약 설명</h5>
@@ -240,7 +240,7 @@
                 </div>
 
                 <div class="item">
-                    <div class="img_box"><img src="./img/mainpage_img/new4.png" alt="" id="new_img" ></div>
+                    <div class="img_box"><img src="../img/main/new4.png" alt="" id="best_img4" ></div>
                     <div class="item_txt">
                         <a href="#">
                             <h4>SAMPLE</h4>
@@ -263,7 +263,7 @@
 
                 <div class="items_area">
                     <div class="item">
-                        <div class="img_box"><img src="./img/mainpage_img/interior1.png" alt="" id="new_img" ></div>
+                        <div class="img_box"><img src="../img/main/interior1.png" alt="" id="interior_img1" ></div>
                         <div class="item_txt">
                             <h4>SAMPLE</h4>
                             <h5>24평형 인테리어</h5>
@@ -271,16 +271,7 @@
                     </div>
 
                     <div class="item">
-                        <div class="img_box"><img src="./img/mainpage_img/interior2.png" alt="" id="new_img" ></div>
-                        <div class="item_txt">
-                            <h4>SAMPLE</h4>
-                            <h5>24평형 인테리어</h5>
-
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="img_box"><img src="./img/mainpage_img/interior3.png" alt="" id="new_img" ></div>
+                        <div class="img_box"><img src="../img/main/interior2.png" alt="" id="interior_img2" ></div>
                         <div class="item_txt">
                             <h4>SAMPLE</h4>
                             <h5>24평형 인테리어</h5>
@@ -289,7 +280,16 @@
                     </div>
 
                     <div class="item">
-                        <div class="img_box"><img src="./img/mainpage_img/interior4.png" alt="" id="new_img" ></div>
+                        <div class="img_box"><img src="../img/main/interior3.png" alt="" id="interior_img3" ></div>
+                        <div class="item_txt">
+                            <h4>SAMPLE</h4>
+                            <h5>24평형 인테리어</h5>
+
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="img_box"><img src="../img/main/interior4.png" alt="" id="interior_img4" ></div>
                         <div class="item_txt">
                             <a href="#">
                                 <h4>SAMPLE</h4>

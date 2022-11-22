@@ -18,8 +18,8 @@
 <div id="wrap">
     <input type="checkbox" value="close" id="close">
     <div class="event_banner">
-        <a href="#"><img src="./img/mainpage_img/event_banner.png" alt="" id="event_img"></a>
-        <label for="close" class="close_img"><img src="./img/mainpage_img/X.png" alt=""></label>
+        <a href="#"><img src="../img/main/event_banner.png" alt="" id="event_img"></a>
+        <label for="close" class="close_img"><img src="../img/main/X.png" alt=""></label>
     </div>
 
     <header class="header">
@@ -46,7 +46,7 @@
                 </form>
             </div>
             <!-- 로고 클릭시 메인페이지로 이동 -->
-            <a href="#"><div class="logo"><img src="./img/logo_black.png" alt=""></div></a>
+            <a href="#"><div class="logo"><img src="../img/fiximg/logo_black.png" alt=""></div></a>
         </div>
 
         <div class="header_bottom">
@@ -67,35 +67,35 @@
                     <li class="li_content">
                         <ul class="ca_box">
                             <li class="ca_txt">Boutique Furniture</li>
-                            <li class="ca_img"><img src="./img/Furn1.png"></li>
+                            <li class="ca_img"><img src="../img/fiximg/Furn1.png"></li>
                         </ul>
                         <ul class="ca_box">
                             <li class="ca_txt">Table & Dining</li>
-                            <li class="ca_img"><img src="./img/Furn2.png"></li>
+                            <li class="ca_img"><img src="../img/fiximg/Furn2.png"></li>
                         </ul>
                         <ul class="ca_box">
                             <li class="ca_txt">Chair</li>
-                            <li class="ca_img"><img src="./img/Furn3.png"></li>
+                            <li class="ca_img"><img src="../img/fiximg/Furn3.png"></li>
                         </ul>
                         <ul class="ca_box">
                             <li class="ca_txt">Sofa</li>
-                            <li class="ca_img"><img src="./img/Furn4.png"></li>
+                            <li class="ca_img"><img src="../img/fiximg/Furn4.png"></li>
                         </ul>
                         <ul class="ca_box">
                             <li class="ca_txt">Global Furniture</li>
-                            <li class="ca_img"><img src="./img/Furn5.png"></li>
+                            <li class="ca_img"><img src="../img/fiximg/Furn5.png"></li>
                         </ul>
                         <ul class="ca_box">
                             <li class="ca_txt">TV Stand & Storage</li>
-                            <li class="ca_img"><img src="./img/Furn6.png"></li>
+                            <li class="ca_img"><img src="../img/fiximg/Furn6.png"></li>
                         </ul>
                         <ul class="ca_box">
                             <li class="ca_txt">Small Furniture</li>
-                            <li class="ca_img"><img src="./img/Furn7.png"></li>
+                            <li class="ca_img"><img src="../img/fiximg/Furn7.png"></li>
                         </ul>
                         <ul class="ca_box">
                             <li class="ca_txt">Bed</li>
-                            <li class="ca_img"><img src="./img/Furn8.png"></li>
+                            <li class="ca_img"><img src="../img/fiximg/Furn8.png"></li>
                         </ul>
                     </li>
 
